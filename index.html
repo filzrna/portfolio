@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Moj portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto+Condensed" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="js/lightbox/css/lightbox.css" rel="stylesheet">
+		<link href="socicon/style.css" rel="stylesheet">
+		<link href="js/vegas/vegas.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Header -->
+			<div class="row"> 
+				<div class="col-xs-12 header">
+					<a href="index.html"> Moj portfolio </a>
+					<p> home </p>
+				</div>
+			</div>
+			<!-- Main menu -->
+			<div class="row"> 
+				<div class="hamburger">
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</div>
+				<ul class="main-menu">
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="about_me.html"> About me </a></li>
+					<li><a href="my_works.html"> My works </a></li>
+					<li><a href="contacts.html"> Contact </a></li>
+				</ul>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12 heading">
+					<h1>Featured works</h1>
+				</div>
+			</div>
+			<!-- Galerija -->
+			<div class="row gallery"> 
+				<div class="col-xs-6">
+					<a href="img/nature.jpg" data-lightbox="galerija1">
+						<img src="img/nature_s.jpg">
+						<div class="photo_txt">
+							<p>PRIRODA I ŽIVOTINJE</p>
+							<p class="txt_s">PHOTOGRAPHY</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="img/tattoo_design.jpg" data-lightbox="galerija1">
+						<img src="img/tattoo_design_s.jpg">
+						<div class="photo_txt">
+							<p>TATTOO DESIGN</p>
+							<p class="txt_s">GRAPHIC DESIGN</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="img/still.jpg" data-lightbox="galerija1">
+						<img src="img/still_s.jpg">
+						<div class="photo_txt">
+							<p>MRTVA PRIRODA </p>
+							<p class="txt_s">PHOTOGRAPHY</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="img/MOP.jpg" data-lightbox="galerija1">
+						<img src="img/MOP_s.jpg">
+						<div class="photo_txt">
+							<p>MOP ŠPANCIRFEST</p>
+							<p class="txt_s">Video production</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="img/html_coding.jpg" data-lightbox="galerija1">
+						<img src="img/coding_s.jpg"> 
+						<div class="photo_txt">
+							<p>MUSIC GENRE</p>
+							<p class="txt_s">HTML/CSS/JS CODING</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6">
+					<a href="img/interview.jpg" data-lightbox="galerija1">
+						<img src="img/interview_s.jpg"> 
+						<div class="photo_txt">
+							<p>Interview</p>
+							<p class="txt_s">Video production</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="row contact-form">
+				<h1>Quick contact</h1>
+				<form action="">					
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Subject">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="E-mail">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" placeholder="Message"></textarea>
+					</div>				
+					<button type="submit" class="btn btn-default">Send</button>
+				</form>
+			</div>
+
+			<div class="row footer">
+				<div class="col-xs-12 ">
+					<img src="img/footer_title.png">
+					<ul >
+						<li><a href="index.html"> Home</a></li>
+						<li><a href="about_me.html"> About me</a></li>
+						<li><a href="my_works.html"> My works</a></li>
+						<li><a href="contact.html"> Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/lightbox/js/lightbox.js"></script>
+		<script src="js/vegas/vegas.js"></script>
+		<script>
+		$(".header").vegas({
+			shuffle: true,
+			slides: [
+				{ src: "img/bg.jpg" },
+				{ src: "img/bg_1.jpg" },
+				{ src: "img/bg_2.jpg" },
+				{ src: "img/bg_3.jpg" },
+				{ src: "img/bg_4.jpg" },
+				{ src: "img/bg_5.jpg" }
+			],
+			animation: 'kenburns',
+			overlay: 'js/vegas/overlays/04.png'
+		});
+		</script>
+		<script>
+		$('.hamburger').click(function(){
+			$('.main-menu').slideToggle();
+		})
+		</script>
+	</body>
+</html>
