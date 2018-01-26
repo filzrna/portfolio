@@ -204,6 +204,11 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 }
+@media screen and (max-width: 761px){
+	.square-blocks p{
+		font-size: 10pt;
+	}
+}
 .section {
 	margin: 50px 0;
 }
@@ -237,7 +242,7 @@ body{
 	color: #F0F0F0;
 }
 .my-story div{
-	height: 800px;
+	height: 100%;
 }
 .my-story p{
 	font-family: 'Roboto', sans-serif;
@@ -245,7 +250,7 @@ body{
 	font-size: 18pt;
 }
 .my-story img{
-	width: 500px;
+	width: 100%;
 }
 .my-story h2{
 	font-size: 40pt;
