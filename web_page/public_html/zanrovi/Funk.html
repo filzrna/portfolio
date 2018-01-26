@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Jazz</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/potprogrami.js"></script>
+    </head>
+    <body>
+        <audio id="music" controls="controls" hidden>
+            <source src="../music/september.mp3" type="audio/mpeg">
+            Your browser does not support the <code>audio</code> tag.
+        </audio>
+        <script> muted()</script>
+        <div class="header-container">
+            <audio controls autoplay hidden>
+                <source src="../music/.mp3" type="audio/mpeg">
+                Your browser does not support the <code>audio</code> tag.
+            </audio>
+            <div class="head">
+                <a href="../other/index.html">
+                    <img class="logo" width="200" height="85"/>
+                </a>
+            </div>  
+            <div>
+                <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+            </div>
+            <div>
+                <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+            </div>
+            <div id="fav" hidden>
+                <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+            </div>
+            <div class="head2">
+                <a href="#"> 
+                    <img onclick="mute();muted();" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+                </a>
+            </div>
+            <script>mute_2();</script>
+            <script>
+                fav();
+            </script>
+            <script>log()</script>
+        </div>
+        <div class="mainlog clearfix">
+            <img class="photo_genre" src="../slike/funk.jpg" style="width:300px;height:auto;">
+            <p class="text_genre"> <p>Funk is a music genre that originated in the mid- to late 1960s when African American musicians created a rhythmic, danceable new form of music through a mixture of soul music, jazz, and rhythm and blues (R&B). Funk de-emphasizes melody and chord progressions used in other related genres and brings a strong rhythmic groove of a bass line played by an electric bassist and a drum part played by a drummer to the foreground. Funk songs are often based on an extended vamp on a single chord, distinguishing them from R&B and soul songs, which are built on complex chord progressions. Funk uses the same richly-colored extended chords found in bebop jazz, such as minor chords with added sevenths and elevenths, or dominant seventh chords with altered ninths.</p>
+            <p>Like much of African-inspired music, funk typically consists of a complex groove with rhythm instruments such as electric guitar, electric bass, Hammond organ, and drums playing interlocking rhythms. Most funk bands have a horn section of several saxophones, trumpets, and in some cases, a trombone, which plays rhythmic "hits" and "punches". Funk originated in the mid-1960s, with James Brown's development of a signature groove that emphasized the downbeat—with heavy emphasis on the first beat of every measure ("the one"), funky bass lines, drum patterns, and syncopated guitar riffs. Other musical groups, including Sly and the Family Stone and Parliament-Funkadelic, soon began to adopt and develop Brown's innovations. While much of the written history of funk focuses on men, there have been notable funk women, including Chaka Khan, Labelle, Lyn Collins, Brides of Funkenstein, Klymaxx, Mother's Finest, and Betty Davis.</p>
+            <p>Funk songs are often based on an extended vamp on a single chord, distinguishing them from R&B and soul songs, which are built on complex chord progressions. Funk uses the same richly-colored extended chords found in bebop jazz, such as minor chords with added sevenths and elevenths, or dominant seventh chords with altered ninths.</p>
+            <p>Many of the most famous bands in the genre also played disco and soul extensively. Funk derivatives include funk rock (e.g., Red Hot Chili Peppers); boogie (or electro-funk), a form of electronic music; electro music, a hybrid of electronic music and funk; funk metal (e.g., Living Colour); G-funk, a mix of gangsta rap and funk; Timba, a form of funky Cuban popular dance music; and funk jam (e.g., Phish). Funk samples have been used extensively in genres including hip hop, house music, and drum and bass. It is also the main influence of go-go, a subgenre associated with funk.</p>
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+
+            </footer>
+        </div>
+    </body>
+</html>

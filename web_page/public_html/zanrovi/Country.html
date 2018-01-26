@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Country</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/potprogrami.js"></script>
+    </head>
+    <body>
+        <audio id="music" controls="controls" hidden>
+            <source src="../music/ring of fire.mp3" type="audio/mpeg">
+            Your browser does not support the <code>audio</code> tag.
+        </audio>
+        <script> muted()</script>
+        <div class="header-container">
+            <div class="head">
+                <a href="../other/index.html">
+                    <img class="logo" width="200" height="85"/>
+                </a>
+            </div>  
+            <div>
+                <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+            </div>
+            <div>
+                <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+            </div>
+            <div id="fav" hidden>
+                <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+            </div>
+            <div class="head2">
+                <a href="#"> 
+                    <img onclick="mute();muted();" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+                </a>
+            </div>
+            <script>mute_2();</script>
+            <script>
+                fav();
+            </script>
+            <script>log()</script>
+        </div>
+        <div class="main_2_1 clearfix">
+            <img class="photo_genre" src="../slike/country.png" style="width:300px;height:auto;">
+            <p class="text_genre"> Country music is a genre of United States popular music that originated in the southern United States in the 1920s. It takes its roots from the southeastern genre of United States, such as folk music (especially Appalachian folk music), and blues music. Blues modes have been used extensively throughout its recorded history. Country music often consists of ballads and dance tunes with generally simple forms and harmonies accompanied by mostly string instruments such as banjos, electric and acoustic guitars, dobros and fiddles as well as harmonicas. According to Lindsey Starnes, the term country music gained popularity in the 1940s in preference to the earlier term hillbilly music; it came to encompass Western music, which evolved parallel to hillbilly music from similar roots, in the mid-20th century. </p>
+            <p>The term country music is used today to describe many styles and subgenres. The origins of country music are the folk music of working-class Americans, who blended popular songs, Irish and Celtic fiddle tunes, traditional English ballads, and cowboy songs, and various musical traditions from European immigrant communities. In 2009 country music was the most listened to rush hour radio genre during the evening commute, and second most popular in the morning commute in the United States.</p>
+            
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+
+            </footer>
+        </div>
+    </body>
+</html>

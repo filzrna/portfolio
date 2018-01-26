@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>J-pop</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/potprogrami.js"></script>
+    </head>
+    <body>
+        <audio id="music" controls="controls" hidden>
+            <source src="../music/anarchy in uk.mp3" type="audio/mpeg">
+            Your browser does not support the <code>audio</code> tag.
+        </audio>
+        <script> muted()</script>
+        <div class="header-container">
+            <div class="head">
+                <a href="../other/index.html">
+                    <img class="logo" width="200" height="85"/>
+                </a>
+            </div>  
+            <div>
+                <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+            </div>
+            <div>
+                <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+            </div>
+            <div id="fav" hidden>
+                <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+            </div>
+            <div class="head2">
+                <a href="#"> 
+                    <img onclick="mute();muted();" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+                </a>
+            </div>
+            <script>mute_2();</script>
+            <script>
+                fav();
+            </script>
+            <script>log()</script>
+        </div>
+        <div class="mainlog clearfix">
+            <img class="photo_genre" src="../slike/punk.png" style="width:300px;height:auto;">
+            <p class="text_genre"> <p>Punk rock (or simply punk) is a rock music genre that developed between 1974 and 1976 in the United States, United Kingdom, and Australia. Rooted in 1960s garage rock and other forms of what is now known as "garage punk" or "proto-punk" music, punk rock bands rejected perceived excesses of mainstream 1970s rock. Punk bands typically use short or fast-paced songs, with hard-edged melodies and singing styles, stripped-down instrumentation, and often political, anti-establishment lyrics. Punk embraces a DIY ethic; many bands self-produce recordings and distribute them through informal channels.</p>
+            <p>The term "punk" was first used in relation to rock music by some American critics in the early 1970s, to describe garage bands and their devotees. By late 1976, bands such as Television and the Ramones in New York City, and the Sex Pistols, the Clash, and the Damned in London were recognized as the vanguard of a new musical movement. The following year saw punk rock spreading around the world, and it became a major cultural phenomenon in the United Kingdom. For the most part, punk took root in local scenes that tended to reject association with the mainstream. An associated punk subculture emerged, expressing youthful rebellion and characterized by distinctive styles of clothing and adornment (ranging from deliberately offensive T-shirts, leather jackets, spike bands and other studded or spiked jewelry to bondage and S&M clothes) and a variety of anti-authoritarian ideologies.</p>        
+            <p>By the beginning of the 1980s, faster, more aggressive styles such as hardcore (e.g. Black Flag) and street punk (e.g. the Exploited) had become the predominant mode of punk rock. Musicians identifying with or inspired by punk also pursued a broad range of other variations, giving rise to post-punk and the alternative rock movement. At the end of the 20th century, punk rock had been adopted by the mainstream, as pop punk and punk rock bands such as Green Day, the Offspring and Blink-182 brought the genre widespread popularity.</p>
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+
+            </footer>
+        </div>
+    </body>
+</html>

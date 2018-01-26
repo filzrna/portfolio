@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>J-pop</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/potprogrami.js"></script>
+    </head>
+    <body>
+        <audio id="music" controls="controls" hidden>
+            <source src="../music/ponpon.mp3" type="audio/mpeg">
+            Your browser does not support the <code>audio</code> tag.
+        </audio>
+        <script> muted()</script>
+        <div class="header-container">
+            <div class="head">
+                <a href="../other/index.html">
+                    <img class="logo" width="200" height="85"/>
+                </a>
+            </div>  
+            <div>
+                <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+            </div>
+            <div>
+                <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+            </div>
+            <div id="fav" hidden>
+                <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+            </div>
+            <div class="head2">
+                <a href="#"> 
+                    <img onclick="mute();muted();" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+                </a>
+            </div>
+            <script>mute_2();</script>
+            <script>
+                fav();
+            </script>
+            <script>log()</script>
+        </div>
+        <div class="mainlog clearfix">
+            <img class="photo_genre" src="../slike/jpop.jpg" style="width:300px;height:auto;">
+            <p class="text_genre"> <p>J-pop (often stylized as J-POP; Japanese: ジェイポップ jeipoppu; an abbreviation for Japanese pop), natively also known simply as pops, is a musical genre that entered the musical mainstream of Japan in the 1990s. Modern J-pop has its roots in traditional Japanese music, but significantly in 1960s pop and rock music, such as The Beatles and The Beach Boys, which led to Japanese rock bands such as Happy End fusing rock with Japanese music in the early 1970s. J-pop was further defined by new wave groups in the late 1970s, particularly electronic synthpop band Yellow Magic Orchestra and pop rock band Southern All Stars.</p>
+            <p>Eventually, J-pop replaced kayōkyoku ("Lyric Singing Music", a term for Japanese pop music from the 1920s to the 1980s) in the Japanese music scene. The term was coined by the Japanese media to distinguish Japanese music from foreign music, and now refers to most Japanese popular music.</p>
+            <p>Some Japanese pop artists are extremely popular in Japan, and some also have fanbases in other countries—especially in Asia, but also in Western countries. They influence not only music, but also fashion. As of 2016, the top five best-selling artists in the Japanese Oricon charts history are B'z, Mr. Children, Ayumi Hamasaki, Southern All Stars, and DREAMS COME TRUE. Among the five, Hamasaki holds the record for being the only solo artist.</p>
+            <p>The origin of modern J-pop is said to be Japanese-language rock music inspired by the likes of The Beatles. Unlike the Japanese music genre called kayōkyoku, J-pop uses a special kind of pronunciation, which is similar to that of English. One notable singer to do so is Keisuke Kuwata, who pronounced the Japanese word karada ("body") as kyerada. Additionally, unlike Western music, the major second (sol and la) was usually not used in Japanese music, except art music, before rock music became popular in Japan. When the Group Sounds genre, which was inspired by Western rock, became popular, Japanese pop music adopted the major second, which was used in the final sounds of The Beatles' song "I Want to Hold Your Hand" and The Rolling Stones' song "(I Can't Get No) Satisfaction". Although Japanese pop music changed from music based on Japanese pentatonic scale and distortional tetrachord to the more occidental music over time, music that drew from the traditional Japanese singing style remained popular (such as that of Ringo Shiina).</p>
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Guest</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/potprogrami.js"></script>
+    </head>
+    <body>
+        <div class="header-container">
+            <div class="head">
+                <a href="index.html">
+                    <img class="logo" width="200" height="85"/>
+                </a>
+            </div>  
+            <div>
+                <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+            </div>
+            <div id="fav" hidden>
+                <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+            </div>
+            <script>
+                fav();
+            </script>
+            <div>
+                <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+            </div>
+            <div class="head2">
+                <a target="_self"> 
+                    <img onclick="mute()" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+                </a>
+            </div>
+            <script>mute_2();</script>
+            <script>log()</script>
+        </div>
+        <div class="main_2 clearfix">
+            <img class="photo_genre" src="../slike/picture.png" style="width:300px;height:auto;">
+            <h2 class="text_genre_2"> Guest </h2>
+            
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Favorite</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/potprogrami.js"></script>
+    </head>
+    <body>
+        <div class="header-container">
+            <div class="head">
+                <a href="index.html">
+                    <img class="logo" width="200" height="85"/>
+                </a>
+            </div>  
+            <div>
+                <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+            </div>
+            <div id="fav" hidden>
+                <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+            </div>
+            <script>
+                fav();
+            </script>
+            <div>
+                <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+            </div>
+            <div class="head2">
+                <a target="_self"> 
+                    <img onclick="mute()" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+                </a>
+            </div>
+            <script>mute_2();</script>
+            <script>log()</script>
+        </div>
+        <div class="main clearfix">
+            <div class="genre" id="a_1">
+                <a target="_self" class="genre_link" href="../zanrovi/Alternative.html">
+                    <img src="../slike/alt.png" width="300" height="200">
+                    <div class="name">Alternative</div>
+                </a>
+            </div>
+            <div class="genre" id="a_2">
+                <a target="_self" class="genre_link" href="../zanrovi/Blues.html">
+                    <img src="../slike/blues.jpg" width="300" height="200">
+                    <div class="name">Blues</div>
+                </a>
+            </div>
+            <div class="genre" id="a_3">
+                <a target="_self" class="genre_link" href="../zanrovi/Classical.html">
+                    <img src="../slike/classical.jpg" width="300" height="200">
+                    <div class="name">Classical</div>
+                </a>
+            </div>
+            <div class="genre" id="a_4">
+                <a target="_self" class="genre_link" href="../zanrovi/Country.html">
+                    <img src="../slike/country.png" width="300" height="200">
+                    <div class="name">Country</div>
+                </a>
+            </div>
+            <div class="genre" id="a_5">
+                <a target="_self" class="genre_link" href="../zanrovi/EDM.html">
+                    <img src="../slike/edm.jpg" width="300" height="200">
+                    <div class="name">EDM</div>
+                </a>
+            </div>
+            <div class="genre" id="a_6">
+                <a target="_self"  class="genre_link" href="../zanrovi/Funk.html">
+                    <img src="../slike/funk.jpg" width="300" height="200">
+                    <div class="name">Funk</div>
+                </a>
+            </div>
+            <div class="genre" id="a_7">
+                <a target="_self" class="genre_link" href="../zanrovi/Hip-Hop Rap.html">
+                    <img src="../slike/hip.jpg" width="300" height="200">
+                    <div class="name">Hip-Hop/Rap</div>
+                </a>
+            </div>
+            <div class="genre" id="a_8">
+                <a target="_self" class="genre_link" href="../zanrovi/J-pop.html">
+                    <img src="../slike/jpop.jpg" width="300" height="200">
+                    <div class="name">J-Pop</div>
+                </a>
+            </div>
+            <div class="genre" id="a_9">
+                <a target="_self" class="genre_link" href="../zanrovi/Jazz.html">
+                    <img src="../slike/jazz.png" width="300" height="200">
+                    <div class="name">Jazz</div>
+                </a>
+            </div>
+            <div class="genre" id="a_10">
+                <a target="_self" class="genre_link" href="../zanrovi/Metal.html">
+                    <img src="../slike/metal.png" width="300" height="200">
+                    <div class="name">Metal</div>
+                </a>
+            </div>
+            <div class="genre" id="a_11">
+                <a target="_self" class="genre_link" href="../zanrovi/Pop.html">
+                    <img src="../slike/POPfacebook_perfil.jpg" alt="pop" width="300" height="200">
+                    <div class="name">Pop</div>
+                </a>
+            </div>
+            <div class="genre" id="a_12">
+                <a target="_self" class="genre_link" href="../zanrovi/Punk.html">
+                    <img src="../slike/punk.png" width="300" height="200">
+                    <div class="name">Punk</div>
+                </a>
+            </div>
+            <div class="genre" id="a_13">
+                <a target="_self" class="genre_link" href="../zanrovi/rnb.html">
+                    <img src="../slike/rnb.png" width="300" height="200">
+                    <div class="name">R&B</div>
+                </a>
+            </div>
+            <div class="genre" id="a_14">
+                <a target="_self" class="genre_link" href="../zanrovi/Reggae.html">
+                    <img src="../slike/reggae.jpg" width="300" height="200">
+                    <div class="name">Reggae</div>
+                </a>
+            </div>
+            <div class="genre" id="a_15">
+                <a target="_self" class="genre_link" href="../zanrovi/Rock.html">
+                    <img src="../slike/rock.jpg" width="300" height="200">
+                    <div class="name">Rock</div>
+                </a>
+            </div>
+
+        </div>
+        <script>show();</script>
+        <div class="footer-container">
+            <footer class="wrapper">
+
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>EDM - Electronic Dance Music</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/potprogrami.js"></script>
+    </head>
+    <body>
+        <audio id="music" controls="controls" hidden>
+            <source src="../music/let me love you.mp3" type="audio/mpeg">
+            Your browser does not support the <code>audio</code> tag.
+        </audio>
+        <script> muted()</script>
+        <div class="header-container">
+            <div class="head">
+                <a href="../other/index.html">
+                    <img class="logo" width="200" height="85"/>
+                </a>
+            </div>  
+            <div>
+                <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+            </div>
+            <div>
+                <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+            </div>
+            <div id="fav" hidden>
+                <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+            </div>
+            <div class="head2">
+                <a href="#"> 
+                    <img onclick="mute();muted();" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+                </a>
+            </div>
+            <script>mute_2();</script>
+            <script>
+                fav();
+            </script>
+            <script>log()</script>
+        </div>
+        <div class="main_2_1 clearfix">
+            <img class="photo_genre" src="../slike/edm.jpg" style="width:300px;height:auto;">
+            <p class="text_genre">Electronic dance music (also known as EDM, dance music, club music, or simply dance) is a broad range of percussive electronic music genres made largely for nightclubs, raves, and festivals. EDM is generally produced for playback by disc jockeys (DJs) who create seamless selections of tracks, called a mix, by segueing from one recording to another. EDM producers also perform their music live in a concert or festival setting in what is sometimes called a live PA. In the United Kingdom, EDM is more commonly called 'dance music' or simply 'dance'.</p>
+            <p>In the late 1980s and early 1990s, following the emergence of raving, pirate radio, and an upsurge of interest in club culture, EDM acquired mainstream popularity in Europe. During the mid to late 1990s, despite the initial success of a number of dance acts in America, acceptance of dance culture was not universal and mainstream media outlets remained hostile to the music. At this time a perceived association between EDM and drug culture led governments at state and city level to enact laws and policies intended to halt the spread of rave culture.</p>
+            <p>By the early 2010s the term "electronic dance music" and the initialism "EDM" was being pushed by the U.S. music industry and music press in an effort to re-brand American rave culture. Despite the industry's attempt to create a specific EDM brand the initialism remains in use as an umbrella term for multiple dance genres, including house, techno, trance, drum and bass, dubstep, and their respective subgenres.</p>
+            
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+
+            </footer>
+        </div>
+    </body>
+</html>

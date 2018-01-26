@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+    <title>Music genre</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/potprogrami.js"></script>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="head">
+            <a href="../other/index.html">
+                <img class="logo" width="200" height="85"/>
+            </a>
+        </div>  
+        <div>
+            <a onclick="log_profile()" href="#" class="sign"> Profile </a>
+        </div>
+        <div id="fav" hidden>
+            <a onclick="favorites()" href="#" class="sign2"> Favorites </a>
+        </div>
+        <script>
+            fav();
+        </script>
+        <div>
+            <a onclick="login_out()" id="button_log" href="#" class="right"> Login </a>
+        </div>
+        <div class="head2">
+            <a target="_self"> 
+                <img onclick="mute()" src="../slike/sound.png" class="sound" id="sound2" width="85" height="85"/> 
+            </a>
+        </div>
+        <script>mute_2();</script>
+        <script>log();</script>
+    </div>
+    <div class="main">
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Alternative.html">
+                <img src="../slike/alt.png" width="300" height="200">
+                <div class="name">Alternative</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a1(); log_like_g1(); icon()"  id="alt" > <img src="../slike/favorite.png" id="alt_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Blues.html">
+                <img src="../slike/blues.jpg" width="300" height="200">
+                <div class="name">Blues</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a2(); log_like_g2(); icon()"  id="blues" > <img src="../slike/favorite.png" id="blues_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Classical.html">
+                <img src="../slike/classical.jpg" width="300" height="200">
+                <div class="name">Classical</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a3(); log_like_g3(); icon()"  id="classic" > <img src="../slike/favorite.png" id="classic_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Country.html">
+                <img src="../slike/country.png" width="300" height="200">
+                <div class="name">Country</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a4(); log_like_g4(); icon()"  id="country" > <img src="../slike/favorite.png" id="country_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/EDM.html">
+                <img src="../slike/edm.jpg" width="300" height="200">
+                <div class="name">EDM</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a5(); log_like_g5(); icon()"  id="edm" > <img src="../slike/favorite.png" id="edm_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self"  class="genre_link" href="../zanrovi/Funk.html">
+                <img src="../slike/funk.jpg" width="300" height="200">
+                <div class="name">Funk</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a6(); log_like_g6(); icon()"  id="funk" > <img src="../slike/favorite.png" id="funk_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Hip-Hop Rap.html">
+                <img src="../slike/hip.jpg" width="300" height="200">
+                <div class="name">Hip-Hop/Rap</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a7(); log_like_g7(); icon()"  id="hip" > <img src="../slike/favorite.png" id="hip_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/J-pop.html">
+                <img src="../slike/jpop.jpg" width="300" height="200">
+                <div class="name">J-Pop</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a8(); log_like_g8(); icon()"  id="j_pop" > <img src="../slike/favorite.png" id="j_pop_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Jazz.html">
+                <img src="../slike/jazz.png" width="300" height="200">
+                <div class="name">Jazz</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a9(); log_like_g9(); icon()"  id="jazz" > <img src="../slike/favorite.png" id="jazz_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Metal.html">
+                <img src="../slike/metal.png" width="300" height="200">
+                <div class="name">Metal</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a10(); log_like_g10(); icon()"  id="metal" > <img src="../slike/favorite.png" id="metal_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Pop.html">
+                <img src="../slike/POPfacebook_perfil.jpg" alt="pop" width="300" height="200">
+                <div class="name">Pop</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a11(); log_like_g11(); icon()"  id="pop" > <img src="../slike/favorite.png" id="pop_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Punk.html">
+                <img src="../slike/punk.png" width="300" height="200">
+                <div class="name">Punk</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a12(); log_like_g12(); icon()"  id="punk" > <img src="../slike/favorite.png" id="punk_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/rnb.html">
+                <img src="../slike/rnb.png" width="300" height="200">
+                <div class="name">R&B</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a13(); log_like_g13(); icon()"  id="rnb" > <img src="../slike/favorite.png" id="rnb_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Reggae.html">
+                <img src="../slike/reggae.jpg" width="300" height="200">
+                <div class="name">Reggae</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a14(); log_like_g14(); icon()"  id="reggae" > <img src="../slike/favorite.png" id="reggae_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <div class="genre">
+            <a target="_self" class="genre_link" href="../zanrovi/Rock.html">
+                <img src="../slike/rock.jpg" width="300" height="200">
+                <div class="name">Rock</div>
+            </a>
+            <div class="like">
+                <a target="_self" onclick="log_like_a15(); log_like_g15(); icon()"  id="rock" > <img src="../slike/favorite.png" id="rock_2" width="20" height="20" /> </a>
+            </div>
+        </div>
+        <script> icon();</script>
+    </div>
+
+    <div class="footer-container">
+        <footer class="wrapper">
+
+        </footer>
+    </div>
+</body>
+</html>
+
