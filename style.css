@@ -237,23 +237,15 @@ body{
 	color: #F0F0F0;
 }
 .my-story div{
-	height: 1000px;
+	height: 800px;
 }
 .my-story p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 18pt;
 }
-.my-story span{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Roboto', sans-serif;
-	font-size: 100pt;
-	color: #E0E0E0;
+.my-story img{
+	width: 550px;
 }
 .my-story h2{
 	font-size: 40pt;
